@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="_4332_Abdullov" Height="450" Width="800">
     <Grid>
-        <TextBlock FontSize="20" HorizontalAlignment="Center">Абдуллов, 19</TextBlock>
+        <StackPanel>
+            <TextBlock FontSize="20" HorizontalAlignment="Center">Абдуллов, 19</TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="ImportButton" Click="ImportButton_Click" Margin="10">Импорт</Button>
+                <Button x:Name="ExportButton" Click="ExportButton_Click" Margin="10">Экспорт</Button>
+            </StackPanel>
+            <DataGrid x:Name="WorkersDataGrid" HorizontalAlignment="Center" Width="1000" AutoGenerateColumns="True">
+
+            </DataGrid>
+
+        </StackPanel>
     </Grid>
 </Window>
