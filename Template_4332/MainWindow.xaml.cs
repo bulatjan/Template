@@ -30,9 +30,10 @@ namespace Template_4332
             elina.Show();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Abdullov_4332_Click(object sender, RoutedEventArgs e)
         {
-
+            _4332_Abdullov Bulatjan = new _4332_Abdullov();
+            Bulatjan.Show();
         }
     }
 }
